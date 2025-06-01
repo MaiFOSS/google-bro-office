@@ -1,22 +1,16 @@
-# google-bro-office
+# Google Bro Office 
 
-google bro office is under development.
+Google Bro Office is the result of a strategic collaboration with MaiFOSS, offering seamless access to Google’s suite of driver applications and empowering users with the cutting-edge tools required for modern office productivity and digital management.
 
-How to test google-bro-office:
+---
+## Installation
 
-1. Install required dependency:
+### First method: With OmniPkg Package Manager 
 
-- GNU/Linux:
+1. [Install OmniPkg Package Manager](https://github.com/maibloom/omnipkg-app)
 
-```
-sudo pacman -S python-pyqt5
-```
-or
-```
-pipx install python-pyqt5
-```
-2. Run the application:
+2. Install Google Bro Office:
 
 ```
-python main.py
+omnipkg put install google-bro-office
 ```
